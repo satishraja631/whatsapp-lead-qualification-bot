@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-lead-qualification-bot",
+  "version": "1.0.0",
+  "description": "Demo: AI-powered WhatsApp lead qualification bot (Claude + Express). Classifies inbound customer messages, scores leads, and logs them to a CRM dashboard.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "claude",
+    "anthropic",
+    "whatsapp",
+    "lead-qualification",
+    "ai-automation",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
